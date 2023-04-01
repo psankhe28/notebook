@@ -16,7 +16,6 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#how-to-run">How To Run</a></li>
-    <li><a href="#key-features">Key Features</a></li>
     <li><a href="#key-features">Tech Stack</a></li>
   </ol>
 </details>
@@ -60,21 +59,7 @@ pre-built forms for signup, login, and note creation and updating. Overall, the 
    $ cd backend
    $ npm install
    ```
-<!-- KEY FEATURES -->
-
-## **🎖 Key Features**
-
-- Online code editor for remote coding.
-- Video conferencing for collaboration and communication.
-- Personalized calendar for scheduling and reminders.
-- Task manager for organizing tasks.
-- Resource management for efficient allocation of resources.
-- Project management tools for planning and scheduling.
-- File sharing for collaborative work on documents.
-- Chat function for real-time communication.
-
-<br />
-
+   
 <!-- BUILT WITH -->
 
 ## **⚙️ Built With**
