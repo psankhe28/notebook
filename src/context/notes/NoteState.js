@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const NoteState = (props) => {
   const host = "http://localhost:5000"
-  const notesInitial = []
+  const notesInitial = {}
   const [notes, setNotes] = useState(notesInitial)
 
   // Get all Notes
@@ -34,7 +34,13 @@ const NoteState = (props) => {
     });
 
     const note = await response.json();
-    setNotes(notes.concat(note))
+    notes && Array.isArray(notes)
+    if (notes && Array.isArray(notes)) {
+      const updatedNotes = notes.concat(note);
+      setNotes(updatedNotes);
+    } else {
+      // handle the case when notes is not defined or is not an array
+    }
   }
 
   // Delete a Note
